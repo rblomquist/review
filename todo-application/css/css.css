@@ -1,0 +1,76 @@
+* {
+    margin: auto;
+    padding: 20px;
+    max-width: 900px;
+    font-family: sans-serif;
+}
+
+section {
+    background-color: pink;
+}
+
+input {
+    background-color: lightblue;
+}
+
+input[type="text"] {
+    font-size: large;
+}
+
+label{
+    display: block;
+}
+
+h1{
+    text-align: center;
+}
+
+#remaining {
+    font-size: large;
+    font-weight: bold;
+}
+
+
+#taskList div{
+    width: 85%;
+    background-color: lightblue;
+
+    font-size: large;
+}
+
+#plus {
+    background-color: lightblue;
+}
+
+.remove {
+    background-color: red;
+}
+
+.active {
+    border: 1px solid black;
+    background-color: lightblue;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flexEven {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.blackBorder {
+    border: 1px solid black;
+}
+
+.completed {
+    background-color: gray;
+}
+
+.completed p {
+    text-decoration: line-through;
+}
